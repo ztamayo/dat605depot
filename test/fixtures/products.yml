@@ -1,0 +1,23 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  description: MyText
+  image_url: MyString
+  price: 9.99
+
+two:
+  title: MyString
+  description: MyText
+  image_url: MyString
+  price: 9.99
+#START:GTA
+
+GTA3: 
+  title:       'Grand Theft Auto 3'
+  description: 
+    Grand Theft Auto III is played from a third-person perspective in an open world environment,allowing the player to interact with the game world at their leisure. The game is set within the fictional city of Liberty City, which is loosely based on New York City.[a] The single-player story follows Claude,[b] a bank robber who is left for dead by his girlfriend, and quickly becomes entangled in a world of gangs, crime, and corruption.
+  price:       9.50
+  image_url:   GTA3.png 
+#END:GTA

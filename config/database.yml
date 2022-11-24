@@ -1,0 +1,24 @@
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: 5
+  username: postgres
+  password: 10birds
+
+development:
+  <<: *default
+  database: depot2_development
+
+test:
+  <<: *default
+  database: depot2_test
+
+
+production:
+  <<: *default
+  database: depot2_production
+  username: depot2
+  password: <%= ENV['DEPOT2_DATABASE_PASSWORD'] %>
